@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: Get Play
-      link: /guide/
+      link: /life/
     - theme: alt
       text: View on GitHub
       link: https://github.com/warmthsea/vitepress-starter
