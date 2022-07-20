@@ -1,0 +1,6 @@
+---
+title: Life
+---
+
+# With Life
+

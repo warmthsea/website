@@ -9,6 +9,20 @@ export default defineConfig({
     },
     themeConfig: {
         logo: '/logo.svg',
+        nav: [
+            { text: 'Life', link: '/life/' },
+            { text: 'Learn', link: '/learn/' },
+            { text: 'About', link: '/about/' },
+            {
+                text: 'Resources',
+                items: [
+                    { text: 'Vue', link: 'https://vuejs.org' },
+                    { text: 'Vite', link: 'https://vitejs.dev' },
+                    { text: 'VitePress', link: 'https://vitepress.vuejs.org' },
+                    { text: 'Nuxt3', link: 'https://nuxtjs.org' },
+                ]
+            }
+        ],
         socialLinks: [
             { icon: 'twitter', link: '' },
             { icon: 'instagram', link: 'https://www.instagram.com/warmthsea/' },
