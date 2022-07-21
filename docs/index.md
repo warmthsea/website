@@ -8,7 +8,7 @@ hero:
   text: This is my play VitePress place
   tagline: This is my play VitePress place.
   image:
-    src: /logo-with-shadow.png
+    src: /logo-with-shadow.svg
     alt: Vite
   actions:
     - theme: brand
