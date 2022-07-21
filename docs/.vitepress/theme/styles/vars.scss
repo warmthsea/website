@@ -10,6 +10,9 @@
   --vp-c-brand-dark: #535bf2;
   --vp-c-brand-darker: #454ce1;
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
+
+  --vp-nav-height-mobile: 56px;
+  --vp-nav-height-desktop: 65px;
 }
 
 /**
@@ -26,6 +29,7 @@
   --vp-button-brand-active-border: var(--vp-c-brand-light);
   --vp-button-brand-active-text: var(--vp-c-text-dark-1);
   --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+
 }
 
 /**
@@ -44,9 +48,7 @@
   --vp-home-hero-image-filter: blur(40px);
 }
 
-.main {
-  margin-top: 40px;
-}
+
 
 
 @media (min-width: 640px) {
@@ -59,14 +61,8 @@
   :root {
     --vp-home-hero-image-filter: blur(72px);
   }
+
   .main {
     margin-top: 0px;
   }
 }
-
-@media (max-width: 960px) {
-  .image{
-    margin-top: -50px !important;
-  }
-}
-

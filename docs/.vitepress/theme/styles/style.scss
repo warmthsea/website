@@ -1,0 +1,17 @@
+.main {
+    margin-top: 40px;
+}
+
+#app .VPNavBar {
+    border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+#app .VPNavBarTitle {}
+
+@media (max-width: 960px) {
+    #app .image {
+        margin-top: -50px;
+    }
+}
+
+@media (min-width: 960px) {}

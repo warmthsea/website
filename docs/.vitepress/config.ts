@@ -4,9 +4,15 @@ export default defineConfig({
     title: 'WarmthSea',
     description: 'Just playing around.',
     base: '/vitepress-starter/',
+
+    head: [
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ],
+
     vue: {
         reactivityTransform: true
     },
+    
     themeConfig: {
         logo: '/logo.svg',
         nav: [
