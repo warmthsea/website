@@ -4,19 +4,22 @@ layout: home
 title: me
 
 hero:
-  name: WarmthSea
-  text: This is my play VitePress place
-  tagline: This is my play VitePress place.
+  name: Saluton
+  text: Bonvenon al
+  tagline: 你好，欢迎来到，这是一个我记录的地方.
   image:
     src: /logo-with-shadow.svg
-    alt: Vite
+    alt: logo
   actions:
     - theme: brand
-      text: Get Play
+      text: Show
       link: /life/
     - theme: alt
       text: View on GitHub
       link: https://github.com/warmthsea/vitepress-starter
+    - theme: alt
+      text: About me
+      link: /about/me
 
 features:
   - icon: 💡
@@ -26,6 +29,6 @@ features:
     title: Lightning Fast HMR
     details: Hot Module Replacement (HMR) that stays fast regardless of app size.
   - icon: 🛠️
-    title: Rich Features
-    details: Out-of-the-box support for TypeScript, JSX, CSS and more.
+    title: Made by EGOIST
+    details: Built with Vitepress.
 ---

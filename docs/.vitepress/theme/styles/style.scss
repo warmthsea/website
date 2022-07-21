@@ -1,16 +1,29 @@
-.main {
-    margin-top: 40px;
-}
-
 #app .VPNavBar {
     border-bottom: 1px solid var(--vp-c-divider-light);
+}
+
+#app .VPHomeHero {
+    margin-top: 0px;
+    margin-bottom: 40px;
+
+    .main {
+        margin-top: -45px;
+    }
 }
 
 #app .VPNavBarTitle {}
 
 @media (max-width: 960px) {
     #app .image {
-        margin-top: -50px;
+        margin-top: -75px;
+    }
+
+    #app .VPHomeHero {
+        margin-bottom: 5px;
+
+        .main {
+            margin-top: 50px;
+        }
     }
 }
 
