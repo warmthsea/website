@@ -6,7 +6,7 @@ title: me
 hero:
   name: Saluton
   text: Bonvenon al
-  tagline: 你好，欢迎来到，这是一个我记录的地方.
+  tagline: 👋 你好，欢迎来到，我的个人网站.
   image:
     src: /logo-with-shadow.svg
     alt: logo
@@ -17,18 +17,14 @@ hero:
     - theme: alt
       text: View on GitHub
       link: https://github.com/warmthsea/vitepress-starter
-    - theme: alt
-      text: About me
-      link: /about/me
 
 features:
-  - icon: 💡
-    title: Instant Server Start
-    details: On demand file serving over native ESM, no bundling required!
-  - icon: ⚡️
-    title: Lightning Fast HMR
-    details: Hot Module Replacement (HMR) that stays fast regardless of app size.
-  - icon: 🛠️
-    title: Made by EGOIST
-    details: Built with Vitepress.
+  - icon: 📌
+    title: With me 
+    details: 💜 Hello，My nickname is WarmthSea/温暖海，I am an software developer currently based in China  Chengdu/中国 成都 🌏. My English is not good，I am trying to learn.
+  - icon: ✏️
+    title: Content 
+    details: I will write some blogs on the site，share some life. Other？I haven't thought about it yet 💭.
+  - icon: 🎈
+    details: I often play 🏓. Sometimes，I play games 🎮，like to play 王者荣耀/Honor of Kings，on android platform(🆔:总是孩子气)，14 seasons 🏆.
 ---
