@@ -6,7 +6,7 @@ export default defineConfig({
     base: '/vitepress-starter/',
 
     head: [
-        ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+        ['link', { rel: 'icon', type: 'image/svg+xml', href: 'logo.svg' }],
     ],
 
     vue: {
