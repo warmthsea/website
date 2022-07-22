@@ -2,6 +2,11 @@
  * Colors
  * -------------------------------------------------------------------------- */
 
+.container {
+  margin: 0 auto;
+  max-width: 1152px;
+}
+
 :root {
   --vp-c-brand: #646cff;
   --vp-c-brand-light: #747bff;
