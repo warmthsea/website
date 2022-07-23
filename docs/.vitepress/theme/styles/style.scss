@@ -11,9 +11,15 @@
     }
 }
 
-#app .VPNavBarTitle {}
+#app .VPNavBarTitle {
+    .title {
+        color: transparent;
+        background: var(--vp-home-hero-name-background);
+        -webkit-background-clip: text;
+    }
+}
 
-.font-icon{
+.font-icon {
     padding: 2px 8px;
     border-radius: 4px;
 
@@ -21,12 +27,12 @@
     background-color: var(--vp-c-gray-light-4);
 }
 
-.dark .font-icon{
+.dark .font-icon {
     background-color: var(--vp-c-bg);
 }
 
 
-p img{
+p img {
     margin-top: 2px;
 }
 
@@ -44,6 +50,4 @@ p img{
     }
 }
 
-@media (min-width: 960px) {
-   
-}
+@media (min-width: 960px) {}
