@@ -8,11 +8,7 @@ export default defineConfig({
     head: [
         ['link', { rel: 'icon', type: 'image/svg+xml', href: 'logo.svg' }],
     ],
-
-    vue: {
-        reactivityTransform: true
-    },
-
+    lastUpdated: true,
     themeConfig: {
         logo: '/logo.svg',
         nav: [
@@ -34,16 +30,14 @@ export default defineConfig({
             { icon: 'instagram', link: 'https://www.instagram.com/warmthsea/' },
             { icon: 'github', link: 'https://github.com/warmthsea' },
         ],
-        localeLinks: {
-            text: '简体中文',
-            items: [
-                { text: 'English', link: '/' },
-            ]
-        },
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2022-present WarmthSea'
         },
+
+        sidebar: {
+            
+        }
     },
     vite: {
         server: {
