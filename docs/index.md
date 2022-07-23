@@ -12,7 +12,7 @@ hero:
     alt: logo
   actions:
     - theme: brand
-      text: Show
+      text: Show More
       link: /life/
     - theme: alt
       text: View on GitHub
