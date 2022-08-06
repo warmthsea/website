@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 export default defineConfig({
     title: 'WarmthSea',
@@ -46,6 +46,4 @@ export default defineConfig({
             open: true,
         },
     },
-
-
 });
