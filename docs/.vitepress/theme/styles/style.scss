@@ -1,5 +1,5 @@
 #app .VPNavBar {
-    border-bottom: 1px solid var(--vp-c-divider-light);
+    // border-bottom: 1px solid var(--vp-c-divider-light);
 }
 
 #app .VPHomeHero {
@@ -9,7 +9,12 @@
     .main {
         margin-top: -40px;
     }
+
+    .image-src {
+        display: none;
+    }
 }
+
 
 #app .VPNavBarTitle {
     .title {

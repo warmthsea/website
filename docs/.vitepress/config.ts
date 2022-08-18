@@ -13,7 +13,12 @@ export default defineConfig({
         logo: '/logo.svg',
         nav: [
             { text: 'Life', link: '/life/' },
-            { text: 'Learn', link: '/learn/computer' },
+            {
+                text: 'Learn',
+                items: [{
+                    text: '计算机系统机构', link: '/computer/', activeMatch: '/computer/'
+                }]
+            },
             { text: 'About', link: '/about/' },
             {
                 text: 'Resources',
@@ -34,9 +39,17 @@ export default defineConfig({
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2022-present WarmthSea'
         },
-
         sidebar: {
-            
+            '/computer/': [{
+                text: '计算机系统结构',
+                items: [{
+                    text: '第一章 概论',
+                    link: '/computer/one'
+                }, {
+                    text: '第二章 数据表示、寻址方式与指令系统',
+                    link: '/computer/two'
+                }]
+            }]
         }
     },
     vite: {
