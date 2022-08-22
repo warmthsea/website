@@ -19,7 +19,7 @@ export default defineConfig({
                     text: '计算机系统机构', link: '/computer/', activeMatch: '/computer/'
                 }]
             },
-            { text: 'About', link: '/about/' },
+            // { text: 'About', link: '/about/' },
             {
                 text: 'Resources',
                 items: [
