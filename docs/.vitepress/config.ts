@@ -48,6 +48,9 @@ export default defineConfig({
                 }, {
                     text: '第二章 数据表示、寻址方式与指令系统',
                     link: '/computer/two'
+                }, {
+                    text: '第三章 存储、中断、总线与I/O系统',
+                    link: '/computer/three'
                 }]
             }]
         }
