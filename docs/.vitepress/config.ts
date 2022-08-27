@@ -66,6 +66,10 @@ export default defineConfig({
               text: "第五章 标量处理机",
               link: "/computer/five",
             },
+            {
+              text: "第五章 向量处理机",
+              link: "/computer/six",
+            },
           ],
         },
       ],
