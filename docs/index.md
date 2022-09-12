@@ -16,7 +16,7 @@ hero:
       link: /life/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/warmthsea/vitepress-starter
+      link: https://github.com/warmthsea/website
 
 features:
   - icon: 📌

@@ -1,8 +1,8 @@
 {
-  "name": "vitepress-starter",
+  "name": "website",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/warmthsea/vitepress-starter.git",
+  "repository": "https://github.com/warmthsea/website.git",
   "author": "huayang <45450994+huayang0304@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
