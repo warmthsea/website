@@ -33,7 +33,7 @@ export default defineConfig({
             },
         ],
         socialLinks: [
-            { icon: "twitter", link: "" },
+            { icon: "twitter", link: "https://twitter.com/warmthsea" },
             { icon: "instagram", link: "https://www.instagram.com/warmthsea/" },
             { icon: "github", link: "https://github.com/warmthsea" },
         ],
