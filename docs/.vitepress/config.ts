@@ -67,8 +67,16 @@ export default defineConfig({
                             link: "/computer/five",
                         },
                         {
-                            text: "第五章 向量处理机",
+                            text: "第六章 向量处理机",
                             link: "/computer/six",
+                        },
+                        {
+                            test: "第七章 多处理机",
+                            link: "/computer/seven",
+                        },
+                        {
+                            test: "第八章 数据流计算机和规约机",
+                            link: "/computer/eight",
                         },
                     ],
                 },
