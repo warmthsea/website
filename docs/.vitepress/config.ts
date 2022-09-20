@@ -51,23 +51,23 @@ export default defineConfig({
                             link: "/computer/one",
                         },
                         {
-                            text: "第二章 数据表示、寻址方式与指令系统",
+                            text: "第二章 数据表示、寻址方式与指令系统 ★",
                             link: "/computer/two",
                         },
                         {
-                            text: "第三章 存储、中断、总线与I/O系统",
+                            text: "第三章 存储、中断、总线与I/O系统 ★",
                             link: "/computer/three",
                         },
                         {
-                            text: "第四章 存储体系",
+                            text: "第四章 存储体系 ★",
                             link: "/computer/four",
                         },
                         {
-                            text: "第五章 标量处理机",
+                            text: "第五章 标量处理机 ★",
                             link: "/computer/five",
                         },
                         {
-                            text: "第六章 向量处理机",
+                            text: "第六章 向量处理机 ★",
                             link: "/computer/six",
                         },
                         {
